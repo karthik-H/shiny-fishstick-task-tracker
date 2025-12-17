@@ -1,0 +1,41 @@
+{
+  "breakdowns": [
+    {
+      "header": "Create a New Task",
+      "description": "Creates a new task using the API.",
+      "conditions": [
+        "POST request to /tasks/"
+      ]
+    },
+    {
+      "header": "Get a List of Tasks",
+      "description": "Retrieves a list of all tasks.",
+      "conditions": [
+        "GET request to /tasks/"
+      ]
+    },
+    {
+      "header": "Get a Specific Task",
+      "description": "Retrieves details of a specific task by its ID.",
+      "conditions": [
+        "GET request to /tasks/{task_id}"
+      ]
+    },
+    {
+      "header": "Update a Task",
+      "description": "Updates an existing task by its ID.",
+      "conditions": [
+        "PUT request to /tasks/{task_id}"
+      ]
+    },
+    {
+      "header": "Delete a Task",
+      "description": "Deletes a specific task by its ID.",
+      "conditions": [
+        "DELETE request to /tasks/{task_id}"
+      ]
+    }
+  ],
+  "last_updated": "2025-12-17T12:30:50.295399",
+  "version": "1.0"
+}
