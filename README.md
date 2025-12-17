@@ -25,5 +25,6 @@ The API will be available at `http://127.0.0.1:8000`.
 *   `GET /tasks/`: Get a list of tasks.
 *   `GET /tasks/{task_id}`: Get a specific task.
 *   `PUT /tasks/{task_id}`: Update a task.
-*   `DELETE /tasks/{task_id}`: Delete a task. yrdy
+*   `DELETE /tasks/{task_id}`: Delete a task.
+*   'NOOP'
 
