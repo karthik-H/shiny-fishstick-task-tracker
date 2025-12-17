@@ -30,12 +30,13 @@
     },
     {
       "header": "Delete a Task",
-      "description": "Deletes a specific task by its ID.",
+      "description": "Deletes a specific task by its ID. Delete should check if the user exist if not return error.",
       "conditions": [
-        "DELETE request to /tasks/{task_id}"
+        "DELETE request to /tasks/{task_id}",
+        "Delete should check if the user exist if not return error."
       ]
     }
   ],
-  "last_updated": "2025-12-17T12:31:03.771247",
+  "last_updated": "2025-12-17T12:38:27.438070",
   "version": "1.0"
 }
