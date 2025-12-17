@@ -1,43 +1,6 @@
 {
   "breakdowns": [
     {
-      "header": "Create a New Task",
-      "description": "Creates a new task using the API.",
-      "conditions": [
-        "POST request to /tasks/",
-        "Verify if user email is valid before creation."
-      ]
-    },
-    {
-      "header": "Get a List of Tasks",
-      "description": "Retrieves a list of all tasks.",
-      "conditions": [
-        "GET request to /tasks/"
-      ]
-    },
-    {
-      "header": "Get a Specific Task",
-      "description": "Retrieves details of a specific task by its ID.",
-      "conditions": [
-        "GET request to /tasks/{task_id}"
-      ]
-    },
-    {
-      "header": "Update a Task",
-      "description": "Updates an existing task by its ID.",
-      "conditions": [
-        "PUT request to /tasks/{task_id}"
-      ]
-    },
-    {
-      "header": "Delete a Task",
-      "description": "Deletes a specific task by its ID. Delete should check if the user exist if not return error.",
-      "conditions": [
-        "DELETE request to /tasks/{task_id}",
-        "Delete should check if the user exist if not return error."
-      ]
-    },
-    {
       "header": "Add New User",
       "description": "Adds a new user with username, email, and age.",
       "conditions": [
@@ -49,16 +12,12 @@
     {
       "header": "Update User Email Address",
       "description": "Updates the email address of an existing user.",
-      "conditions": [
-        "User must exist."
-      ]
+      "conditions": []
     },
     {
       "header": "Deactivate User Account",
       "description": "Deactivates a user account.",
-      "conditions": [
-        "User must exist."
-      ]
+      "conditions": []
     },
     {
       "header": "Calculate Average Age of Active Users",
@@ -75,6 +34,6 @@
       ]
     }
   ],
-  "last_updated": "2025-12-17T13:28:10.669707",
+  "last_updated": "2025-12-17T13:28:23.456274",
   "version": "1.0"
 }
